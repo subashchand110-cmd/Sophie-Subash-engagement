@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Milan & Lisa's engagement celebration — 5 December 2027 at Manly Skiff Club.">
+  <title>Milan & Lisa — Engagement</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="petal petal-one">✿</div>
+  <div class="petal petal-two">❀</div>
+
+  <header class="hero">
+    <nav class="nav">
+      <div class="monogram">M <span>&</span> L</div>
+      <a href="#rsvp" class="nav-link">RSVP</a>
+    </nav>
+
+    <div class="hero-content">
+      <p class="eyebrow">WE'RE ENGAGED</p>
+      <h1>Milan <span>&amp;</span> Lisa</h1>
+      <div class="floral-line"><span>❧</span><i></i><span>❧</span></div>
+      <p class="hero-date">05 · 12 · 2027</p>
+      <p class="hero-location">Manly Skiff Club · 12:00 PM</p>
+      <a href="#details" class="button">Join Our Celebration</a>
+    </div>
+    <div class="scroll-cue">SCROLL <span>↓</span></div>
+  </header>
+
+  <main>
+    <section class="intro section">
+      <p class="eyebrow">A BEAUTIFUL BEGINNING</p>
+      <h2>Two hearts, one beautiful celebration.</h2>
+      <p class="lead">With joyful hearts, we invite you to celebrate our engagement and the beginning of a wonderful new chapter together.</p>
+    </section>
+
+    <section id="details" class="details section">
+      <div class="section-heading">
+        <p class="eyebrow">THE CELEBRATION</p>
+        <h2>Save the date</h2>
+      </div>
+
+      <div class="detail-grid">
+        <article class="detail-card">
+          <div class="icon">♡</div>
+          <p class="label">WHEN</p>
+          <h3>Sunday<br>5 December 2027</h3>
+          <p>12:00 PM</p>
+        </article>
+
+        <article class="detail-card featured">
+          <div class="icon">✿</div>
+          <p class="label">WHERE</p>
+          <h3>Manly Skiff Club</h3>
+          <p>Manly, NSW</p>
+          <a class="text-link" href="https://www.google.com/maps/search/?api=1&query=Manly%20Skiff%20Club" target="_blank" rel="noopener">View directions →</a>
+        </article>
+
+        <article class="detail-card">
+          <div class="icon">♧</div>
+          <p class="label">WHAT</p>
+          <h3>Engagement<br>Party</h3>
+          <p>Lunch · Celebration · Love</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="floral-break" aria-hidden="true">
+      <span>❀</span><span>✿</span><span>❁</span><span>✿</span><span>❀</span>
+    </section>
+
+    <section class="gallery section">
+      <div class="section-heading">
+        <p class="eyebrow">OUR MOMENTS</p>
+        <h2>A little glimpse of us</h2>
+      </div>
+      <div class="gallery-grid">
+        <div class="photo photo-a"><span>Add your photo</span></div>
+        <div class="photo photo-b"><span>Add your photo</span></div>
+        <div class="photo photo-c"><span>Add your photo</span></div>
+      </div>
+      <p class="gallery-note">Replace these placeholders with your favourite photos by adding them to the <code>images</code> folder and updating the CSS.</p>
+    </section>
+
+    <section id="rsvp" class="rsvp section">
+      <div class="rsvp-card">
+        <div>
+          <p class="eyebrow">KINDLY RESPOND</p>
+          <h2>Will you celebrate with us?</h2>
+          <p>We would love to have you with us on our special day. Please let us know if you can join the celebration.</p>
+        </div>
+
+        <!-- Replace the form action below with your Formspree endpoint or another form provider. -->
+        <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+          <label>
+            Your name
+            <input type="text" name="name" placeholder="Full name" required>
+          </label>
+          <label>
+            Will you attend?
+            <select name="attendance" required>
+              <option value="" disabled selected>Please choose</option>
+              <option>Joyfully attending</option>
+              <option>Sorry, unable to attend</option>
+            </select>
+          </label>
+          <label>
+            Number of guests
+            <select name="guests">
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+            </select>
+          </label>
+          <label>
+            Message
+            <textarea name="message" rows="4" placeholder="A note for Milan & Lisa (optional)"></textarea>
+          </label>
+          <button class="button button-dark" type="submit">Send RSVP</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="monogram">M <span>&</span> L</div>
+    <p>With love, Milan &amp; Lisa</p>
+    <small>05 · 12 · 2027</small>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
