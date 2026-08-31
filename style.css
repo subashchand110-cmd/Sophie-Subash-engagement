@@ -107,13 +107,24 @@ h1,h2,h3 { font-family: "Cormorant Garamond", serif; font-weight: 500; line-heig
   color: #817466; font-family: "Cormorant Garamond", serif; font-size: 22px; font-style: italic;
   border: 1px solid var(--line);
 }
-.photo-a { grid-row: span 2; }
-.gallery-note { text-align: center; color: var(--muted); font-size: 11px; margin-top: 22px; }
-code { font-size: 10px; }
-.rsvp { max-width: 100%; padding-top: 60px; padding-bottom: 120px; }
-.rsvp-card {
-  max-width: 1050px; margin: auto; padding: 75px;
-  background: var(--paper); display: grid; grid-template-columns: .9fr 1fr; gap: 80px;
+.photo-a {
+  grid-row: span 2;
+  background-image: url('images/Sophie-Subash-1.jpg');
+  background-size: cover;
+  background-position: center;
+}
+.photo-a {
+  grid-row: span 2;
+  background-image: url('images/Sophie-Subash-2.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.photo-a {
+  grid-row: span 2;
+  background-image: url('images/Sophie-Subash-3.jpg');
+  background-size: cover;
+  background-position: center;
 }
 .rsvp-card h2 { font-size: clamp(48px, 5vw, 68px); margin-bottom: 22px; }
 .rsvp-card p:not(.eyebrow) { color: var(--muted); font-size: 13px; }
