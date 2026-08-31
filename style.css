@@ -102,29 +102,25 @@ h1,h2,h3 { font-family: "Cormorant Garamond", serif; font-weight: 500; line-heig
 .gallery-grid { display: grid; grid-template-columns: 1.1fr .9fr; grid-template-rows: 240px 240px; gap: 15px; }
 .photo {
   background-color: #e7ded0;
-  background-image: linear-gradient(135deg, rgba(255,255,255,.35), rgba(157,132,101,.14));
-  display: grid; place-items: center;
-  color: #817466; font-family: "Cormorant Garamond", serif; font-size: 22px; font-style: italic;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: grid;
+  place-items: center;
   border: 1px solid var(--line);
-}
-.photo-a {
-  grid-row: span 2;
-  background-image: url('images/Sophie-Subash-1.jpg');
-  background-size: cover;
-  background-position: center;
-}
-.photo-a {
-  grid-row: span 2;
-  background-image: url('images/Sophie-Subash-2.jpg');
-  background-size: cover;
-  background-position: center;
 }
 
 .photo-a {
   grid-row: span 2;
+  background-image: url('images/Sophie-Subash-1.jpg');
+}
+
+.photo-b {
+  background-image: url('images/Sophie-Subash-2.jpg');
+}
+
+.photo-c {
   background-image: url('images/Sophie-Subash-3.jpg');
-  background-size: cover;
-  background-position: center;
 }
 .rsvp-card h2 { font-size: clamp(48px, 5vw, 68px); margin-bottom: 22px; }
 .rsvp-card p:not(.eyebrow) { color: var(--muted); font-size: 13px; }
