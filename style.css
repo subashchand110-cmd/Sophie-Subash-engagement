@@ -102,7 +102,7 @@ h1,h2,h3 { font-family: "Cormorant Garamond", serif; font-weight: 500; line-heig
 .gallery-grid { display: grid; grid-template-columns: 1.1fr .9fr; grid-template-rows: 240px 240px; gap: 15px; }
 .photo {
   background-color: #e7ded0;
-  background-size: cover;
+  background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
   display: grid;
