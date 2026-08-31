@@ -99,10 +99,10 @@ h1,h2,h3 { font-family: "Cormorant Garamond", serif; font-weight: 500; line-heig
 .detail-card p:not(.label) { color: var(--muted); font-size: 12px; }
 .text-link { color: var(--ink); font-size: 10px; letter-spacing: .12em; text-transform: uppercase; text-decoration: none; border-bottom: 1px solid var(--gold); padding-bottom: 4px; }
 .floral-break { padding: 10px 20px 70px; text-align: center; color: var(--gold); letter-spacing: 30px; opacity: .75; }
-.gallery-grid { display: grid; grid-template-columns: 1.1fr .9fr; grid-template-rows: 240px 240px; gap: 15px; }
+.gallery-grid { display: grid; grid-template-columns: 1.1fr .9fr; grid-template-rows: 300px 300px; gap: 15px; }
 .photo {
   background-color: #e7ded0;
-  background-size: contain;
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   display: grid;
