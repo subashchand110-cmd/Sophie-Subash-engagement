@@ -145,7 +145,7 @@ footer small { color: var(--muted); letter-spacing: .2em; font-size: 9px; }
   .hero h1 { font-size: 76px; }
   .detail-grid { grid-template-columns: 1fr; }
   .detail-card { padding: 38px 25px; }
-  .gallery-grid { grid-template-columns: 1fr; grid-template-rows: 310px 260px 260px; }
+  .gallery-grid { grid-template-columns: 1fr; grid-template-rows: 340px 320px 360px; }
   .photo-a { grid-row: auto; }
   .rsvp { padding: 35px 14px 80px; }
   .rsvp-card { padding: 42px 24px; grid-template-columns: 1fr; gap: 45px; }
