@@ -155,3 +155,35 @@ footer small { color: var(--muted); letter-spacing: .2em; font-size: 9px; }
 
 .reveal { opacity: 0; transform: translateY(18px); transition: opacity .8s ease, transform .8s ease; }
 .reveal.visible { opacity: 1; transform: translateY(0); }
+
+.rsvp-action {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.rsvp-date {
+  font-size: 12px;
+  letter-spacing: .12em;
+  margin-bottom: 5px;
+}
+
+.rsvp-venue {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 28px;
+  margin-bottom: 18px;
+}
+
+.rsvp-note {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 18px !important;
+  font-style: italic;
+  margin-top: 18px;
+}
+
+.rsvp-action .button {
+  min-width: 180px;
+  text-align: center;
+}
