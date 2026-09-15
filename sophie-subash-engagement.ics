@@ -2,7 +2,7 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//Sophie & Subash//Engagement Party//EN
 BEGIN:VEVENT
-UID:sophie-subash-engagement-2026@example.com
+UID:sophie-subash-engagement-2026@sophieandsubash
 DTSTAMP:20260915T000000Z
 DTSTART:20261205T120000
 SUMMARY:Sophie & Subash — Engagement Party
