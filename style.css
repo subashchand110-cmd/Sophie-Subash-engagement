@@ -187,3 +187,107 @@ footer small { color: var(--muted); letter-spacing: .2em; font-size: 9px; }
   min-width: 180px;
   text-align: center;
 }
+.save-date {
+  text-align: center;
+  padding-top: 70px;
+}
+
+.calendar-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-top: 35px;
+}
+
+.calendar-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 13px 22px;
+  border: 1px solid var(--line);
+  color: var(--ink);
+  background: var(--white);
+  text-decoration: none;
+  font-size: 10px;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  transition: all .2s ease;
+}
+
+.calendar-button:hover {
+  transform: translateY(-2px);
+  border-color: var(--gold);
+}
+
+.calendar-button span {
+  color: var(--gold);
+  font-size: 16px;
+}
+
+.countdown-wrap {
+  margin-top: 75px;
+  padding-top: 45px;
+  border-top: 1px solid var(--line);
+}
+
+.countdown {
+  max-width: 700px;
+  margin: 28px auto 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.countdown-item {
+  border-right: 1px solid var(--line);
+  padding: 10px 15px;
+}
+
+.countdown-item:last-child {
+  border-right: none;
+}
+
+.countdown-item strong {
+  display: block;
+  font-family: "Cormorant Garamond", serif;
+  font-size: clamp(42px, 6vw, 64px);
+  font-weight: 500;
+  line-height: 1;
+}
+
+.countdown-item span {
+  display: block;
+  margin-top: 10px;
+  color: var(--gold);
+  font-size: 8px;
+  letter-spacing: .2em;
+}
+
+@media (max-width: 600px) {
+  .calendar-buttons {
+    flex-direction: column;
+    align-items: stretch;
+    padding: 0 20px;
+  }
+
+  .calendar-button {
+    justify-content: center;
+  }
+
+  .countdown {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px 0;
+  }
+
+  .countdown-item:nth-child(2) {
+    border-right: none;
+  }
+
+  .countdown-item:nth-child(3) {
+    border-right: 1px solid var(--line);
+  }
+
+  .countdown-item:nth-child(4) {
+    border-right: none;
+  }
+}
