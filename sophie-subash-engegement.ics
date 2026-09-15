@@ -1,0 +1,12 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Sophie & Subash//Engagement Party//EN
+BEGIN:VEVENT
+UID:sophie-subash-engagement-2026@example.com
+DTSTAMP:20260915T000000Z
+DTSTART:20271205T120000
+SUMMARY:Sophie & Subash — Engagement Party
+LOCATION:Manly Skiff Club\, Manly\, NSW
+DESCRIPTION:Join us to celebrate our engagement!
+END:VEVENT
+END:VCALENDAR
