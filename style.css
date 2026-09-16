@@ -291,3 +291,37 @@ footer small { color: var(--muted); letter-spacing: .2em; font-size: 9px; }
     border-right: none;
   }
 }
+.messenger-calendar-help {
+  max-width: 560px;
+  margin: 30px auto 0;
+  padding: 35px 25px;
+  background: var(--paper);
+  border: 1px solid var(--line);
+  text-align: center;
+}
+
+.messenger-calendar-help h3 {
+  font-size: 32px;
+  margin: 12px 0 18px;
+}
+
+.messenger-calendar-help p:not(.eyebrow):not(.browser-note) {
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.messenger-calendar-help .button {
+  margin-top: 12px;
+}
+
+.browser-note {
+  margin: 18px auto 0;
+  max-width: 430px;
+  color: var(--muted);
+  font-size: 10px !important;
+  line-height: 1.6;
+}
+
+.browser-note strong {
+  color: var(--ink);
+}
