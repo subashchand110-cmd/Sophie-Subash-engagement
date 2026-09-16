@@ -46,3 +46,31 @@ function updateCountdown() {
 
 updateCountdown();
 setInterval(updateCountdown, 1000);
+// Detect Messenger's in-app browser
+const appleCalendarButton = document.getElementById("appleCalendarButton");
+const messengerCalendarHelp = document.getElementById("messengerCalendarHelp");
+const openBrowserButton = document.getElementById("openBrowserButton");
+
+const userAgent = navigator.userAgent || navigator.vendor || "";
+const isMessenger = /FBAN|FBAV|FB_IAB|Messenger/i.test(userAgent);
+
+if (isMessenger) {
+  appleCalendarButton.addEventListener("click", function (event) {
+    event.preventDefault();
+
+    messengerCalendarHelp.hidden = false;
+
+    messengerCalendarHelp.scrollIntoView({
+      behavior: "smooth",
+      block: "center"
+    });
+  });
+}
+
+openBrowserButton.addEventListener("click", function () {
+  /*
+   * Messenger may not allow a webpage to force Safari/Chrome.
+   * This attempts to leave the in-app browser where supported.
+   */
+  window.open(window.location.href, "_blank");
+});
